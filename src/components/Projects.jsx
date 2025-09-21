@@ -119,7 +119,7 @@ const Projects = () => {
   }, [])
 
   return (
-    <section ref={projectsRef} className="min-h-screen py-20 bg-black overflow-hidden">
+    <section ref={projectsRef} className="min-h-screen py-20 bg-black overflow-hidden bg-gray-800/40 backdrop-blur-sm rounded-xl p-8 border border-gray-700 relative">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-20 text-white">
           Featured Projects

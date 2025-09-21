@@ -13,7 +13,7 @@ function App() {
   return (
     <div ref={appRef} className="relative overflow-x-hidden">
       <CustomCursor />
-      <BackgroundShapes />
+      {/* <BackgroundShapes /> */}
       <Hero />
       <Skills />
       <Projects />

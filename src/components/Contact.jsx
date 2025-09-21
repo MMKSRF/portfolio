@@ -148,7 +148,7 @@ const Contact = () => {
         ))}
       </div>
 
-      <div className="container mx-auto max-w-4xl relative z-10">
+      <div className="container mx-auto max-w-4xl relative z-10 bg-gray-800/40 backdrop-blur-sm rounded-xl p-8 border border-gray-700 relative">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Let's <span className="text-cyan-400">Connect</span>
@@ -217,7 +217,7 @@ const Contact = () => {
             </div>
 
             {/* Response time indicator */}
-            <div className="bg-gray-800/40 backdrop-blur-sm rounded-xl p-6 border border-gray-700">
+            <div className="bg-gray-800/40 backdrop-blur-sm rounded-xl p-6 border border-gray-700 ">
               <div className="flex items-center">
                 <div className="w-3 h-3 bg-green-400 rounded-full mr-3 animate-pulse"></div>
                 <div>
