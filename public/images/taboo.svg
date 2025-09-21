@@ -1,0 +1,33 @@
+<!-- Taboo Bot — Icon (save as taboo-bot-open-icon.svg) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="240" height="240" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Taboo Bot Open Talk Icon</title>
+  <desc id="d1">Speech bubble robot with a cracked prohibition ring — inviting open conversation on taboo topics.</desc>
+
+  <!-- background -->
+  <rect x="2" y="2" width="116" height="116" rx="20" fill="#0B1220" stroke="#0F172A" stroke-width="2"/>
+
+  <!-- cracked prohibition ring (broken to show 'breaking silence') -->
+  <g fill="none" stroke="#D43A3A" stroke-width="6" stroke-linecap="round">
+    <path d="M60 20 A40 40 0 1 1 59.5 100" /> <!-- almost full ring -->
+    <!-- small gap / crack -->
+    <path d="M70 25 L78 17" stroke="#D43A3A" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- speech bubble / robot head -->
+  <g transform="translate(20,26)">
+    <path d="M20 6 h40 a8 8 0 0 1 8 8 v24 a8 8 0 0 1 -8 8 H34 l-6 6 v-6 H20 a8 8 0 0 1 -8 -8 V14 a8 8 0 0 1 8 -8z"
+          fill="#EAF6FF" stroke="#0F172A" stroke-width="1"/>
+    <!-- eyes -->
+    <rect x="28" y="18" width="6" height="6" rx="1" fill="#0F172A"/>
+    <rect x="46" y="18" width="6" height="6" rx="1" fill="#0F172A"/>
+    <!-- mouth (open speech) -->
+    <path d="M36 30 q8 8 16 0" fill="none" stroke="#0F172A" stroke-width="2" stroke-linecap="round"/>
+    <!-- speech lines to show talking -->
+    <path d="M68 6 q8 6 12 14" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  </g>
+
+  <!-- small sparkle to the top-right to imply clarity -->
+  <g transform="translate(86,20)" fill="#F59E0B">
+    <polygon points="6,0 8,6 14,8 8,10 6,16 4,10 -2,8 4,6"/>
+  </g>
+</svg>
